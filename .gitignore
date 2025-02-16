@@ -1,0 +1,26 @@
+# Python cache/bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+
+# Instance/config files (often used for local dev)
+instance/
+*.sqlite
+*.db
+
+# Logs
+*.log
+
+# Docker
+*.pid
